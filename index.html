@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIYA FITNESS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* CSS reset */
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/gym2.jpg');
+        }
+
+        .left {
+            position: absolute;
+            left: 60px;
+            top: 20px;
+            display: inline-block;
+            /*border: 2px solid red;*/
+
+        }
+
+        .left img {
+            width: 60px;
+        }
+
+        .left div {
+            line-height: 19px;
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 66%;
+            margin: 20px auto;
+            /*border: 2px solid green;*/
+        }
+
+        .right {
+            position: absolute;
+            right: 2px;
+            top: 20px;
+            display:inline-block;
+            /*border: 2px solid yellow;*/
+
+        }
+
+        .btn {
+            display:inline-block;
+            font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+
+        
+        }
+        .container{
+            position: absolute;
+            right: 25px;
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+
+        }
+        .form-group input{
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            display: block;
+            width: 450px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+        .container h3{
+            text-align: center;
+        }
+        .btn{
+            display: block;
+            width: 50%;
+            margin:  20px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- LEFT BOX FOR LOGO -->
+        <div class="left">
+            <img src="img/dumble.jpg" alt="">
+            <div>Priya Fitness</div>
+
+
+        </div>
+        <!-- MID BOX FOR NAVBAR-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <!-- RIGHT BOX FOR BUTTONS-->
+        <div class="right">
+            <button class="btn">Call us Now</button><button class="btn">Email us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h3> Join the best gym of Baidyabati Now</h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+        
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Locality">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Email-id">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Phone Number">
+        </div>
+    </form> 
+    <button class="btn">Submit</button>
+    </div>
+</body>
+
+</html>
